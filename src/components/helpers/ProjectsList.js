@@ -19,17 +19,18 @@ import project06BIg from "./../../img/projects/06-big.jpg";
 const projects = [
     {
         title:  '1pj',
-        skills: 'HTML, CSS, JS',
+        skills: 'Skills: React, Node.js, MongoDB',
         img: project01,
-        imhBig: project01BIg,
-        gitHubLink: 'https://github.com/',
+        imgBig: project01BIg,
+        gitHubLink: 'https://github.com/', 
+        // gitHubLinks for change  
     },
 
     {
         title: '2pj',
         skills: 'HTML, CSS, JS',
         img: project02,
-        imhBig: project02BIg,
+        imgBig: project02BIg,
         gitHubLink: 'https://github.com/',
     },
 
@@ -37,7 +38,7 @@ const projects = [
         title: '3pj',
         skills: 'HTML, CSS, JS',
         img: project03,
-        imhBig: project03BIg,
+        imgBig: project03BIg,
         gitHubLink: 'https://github.com/',
     },
 
@@ -45,7 +46,7 @@ const projects = [
         title: '4pj',
         skills: 'HTML, CSS, JS',
         img: project04,
-        imhBig: project04BIg,
+        imgBig: project04BIg,
         gitHubLink: 'https://github.com/',
     },
 
@@ -53,7 +54,7 @@ const projects = [
         title: '5pj',
         skills: 'HTML, CSS, JS',
         img: project05,
-        imhBig: project05BIg,
+        imgBig: project05BIg,
         gitHubLink: 'https://github.com/',
     },
 
@@ -61,7 +62,7 @@ const projects = [
         title: '6G',
         skills: 'HTML, CSS, JS',
         img: project06,
-        imhBig: project06BIg,
+        imgBig: project06BIg,
         gitHubLink: 'https://github.com/',
     }
 ]

@@ -1,31 +1,34 @@
-import BtnGitHub from '../components/Button-GitHub/Btn/BtnGitHub';
-import img from './../img/projects/02-big.jpg';
-
+import { useParams } from 'react-router-dom'
+import BtnGitHub from '../components/Button-GitHub/Btn/BtnGitHub'
+import { projects } from './../components/helpers/ProjectsList'
+// import img from './../img/projects/02-big.jpg';
 
 const Projects = () => {
-    return (  
-        <main className="section">
-            <div className="container">
-                <div className="project-details">
+	const { id } = useParams()
+	const project = projects[id]
 
-                    <h1 className="title-1">Video service</h1>
+	return (
+		<main className='section'>
+			<div className='container'>
+				<div className='project-details'>
+					<h1 className='title-1'>{project.title}</h1>
 
-                    <img src={img} alt="" className="project-details__cover"/>
+					<img src={project.imgBig} alt='' className='project-details__cover' />
 
-                        <div className="project-details__desc">
-                            <p>Skills: React, Node.js, MongoDB</p>
-                        </div>
+					<div className='project-details__desc'>
+						<p>{project.skills}</p>
+					</div>
 
-                        {/* <a href="#!" className="btn-outline">
+					{/* <a href="#!" className="btn-outline">
                             <img src={gitHubIcon} alt=""/>
                                 GitHub repo
                         </a> */}
-                        <BtnGitHub link="https://github.com" />
 
-                </div>
-            </div>
-        </main>
-    );
+					{project.gitHubLink && <BtnGitHub link='https://github.com' />}
+				</div>
+			</div>
+		</main>
+	)
 }
- 
-export default Projects;
+
+export default Projects
