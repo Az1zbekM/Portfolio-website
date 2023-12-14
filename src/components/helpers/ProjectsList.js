@@ -1,4 +1,6 @@
 import project01 from "./../../img/projects/01.jpg";
+// import project1 from "./../../img/projects/project_1.png";
+
 import project01BIg from "./../../img/projects/01-big.jpg";
 
 import project02 from "./../../img/projects/02.jpg";
@@ -18,7 +20,7 @@ import project06BIg from "./../../img/projects/06-big.jpg";
 
 const projects = [
     {
-        title:  '1pj',
+        title:  '1',
         skills: 'Skills: React, Node.js, MongoDB',
         img: project01,
         imgBig: project01BIg,
@@ -27,7 +29,7 @@ const projects = [
     },
 
     {
-        title: '2pj',
+        title: '2',
         skills: 'HTML, CSS, JS',
         img: project02,
         imgBig: project02BIg,
@@ -35,7 +37,7 @@ const projects = [
     },
 
     {
-        title: '3pj',
+        title: '3',
         skills: 'HTML, CSS, JS',
         img: project03,
         imgBig: project03BIg,
@@ -43,7 +45,7 @@ const projects = [
     },
 
     {
-        title: '4pj',
+        title: '4',
         skills: 'HTML, CSS, JS',
         img: project04,
         imgBig: project04BIg,
@@ -51,7 +53,7 @@ const projects = [
     },
 
     {
-        title: '5pj',
+        title: '5',
         skills: 'HTML, CSS, JS',
         img: project05,
         imgBig: project05BIg,
@@ -59,7 +61,7 @@ const projects = [
     },
 
     {
-        title: '6G',
+        title: '6',
         skills: 'HTML, CSS, JS',
         img: project06,
         imgBig: project06BIg,
