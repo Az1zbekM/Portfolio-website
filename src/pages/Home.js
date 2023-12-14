@@ -13,7 +13,7 @@ const Home = () => {
                         </li>
                         <li className="content-list__item">
                             <h2 className="title-2">Backend</h2>
-                            <p style={{color: 'yellow'}}>In progress</p>
+                            <p>In progress</p>
                             <p>NodeJS, MySQL, MongoDB, PHP, Laravel</p>
                         </li>
                     </ul>

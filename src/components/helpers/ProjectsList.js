@@ -1,7 +1,7 @@
 import project01 from "./../../img/projects/01.jpg";
 // import project1 from "./../../img/projects/project_1.png";
 
-import project01BIg from "./../../img/projects/01-big.jpg";
+import project01BIg from "./../../img/projects/myproject1.jpg";
 
 import project02 from "./../../img/projects/02.jpg";
 import project02BIg from "./../../img/projects/02-big.jpg";
@@ -18,9 +18,10 @@ import project05BIg from "./../../img/projects/05-big.jpg";
 import project06 from "./../../img/projects/06.jpg";
 import project06BIg from "./../../img/projects/06-big.jpg";
 
+
 const projects = [
     {
-        title:  '1',
+        title:  'Portfolio v1.0',
         skills: 'Skills: React, Node.js, MongoDB',
         img: project01,
         imgBig: project01BIg,

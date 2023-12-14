@@ -47,8 +47,7 @@
 
 html,
 body {
-	display: flex;
-	flex-direction: column;
+	
 	min-height: 100vh;
 
 	font-family: 'DM Sans', sans-serif;
@@ -59,6 +58,14 @@ body {
 	color: var(--text-color);
 }
 
+#root {
+	min-height: 100vh;
+}
+.App {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
 /* General */
 
 .container {
@@ -87,7 +94,6 @@ body {
 
 .title-2 {
 	margin-bottom: 20px;
-	color: red;
 	font-size: 40px;
 	font-weight: 700;
 	line-height: 1.3;
