@@ -1,4 +1,4 @@
-import project01 from "./../../img/projects/01.jpg";
+import project01 from "./../../img/projects/myproject11.jpg";
 // import project1 from "./../../img/projects/project_1.png";
 
 import project01BIg from "./../../img/projects/myproject1.jpg";
@@ -21,11 +21,11 @@ import project06BIg from "./../../img/projects/06-big.jpg";
 
 const projects = [
     {
-        title:  'Portfolio v1.0',
+        title:  'Portfolio ',
         skills: 'Skills: React, Node.js, MongoDB',
         img: project01,
         imgBig: project01BIg,
-        gitHubLink: 'https://github.com/', 
+        gitHubLink: 'https://portfolio-pearl-nine-21.vercel.app/', 
         // gitHubLinks for change  
     },
 
@@ -34,7 +34,7 @@ const projects = [
         skills: 'HTML, CSS, JS',
         img: project02,
         imgBig: project02BIg,
-        gitHubLink: 'https://github.com/',
+        gitHubLink: 'https://chat.openai.com/c/a06c029f-5761-4f34-b5dc-db00c8a17406',
     },
 
     {
@@ -42,7 +42,7 @@ const projects = [
         skills: 'HTML, CSS, JS',
         img: project03,
         imgBig: project03BIg,
-        gitHubLink: 'https://github.com/',
+        gitHubLink: '',
     },
 
     {
@@ -50,7 +50,7 @@ const projects = [
         skills: 'HTML, CSS, JS',
         img: project04,
         imgBig: project04BIg,
-        gitHubLink: 'https://github.com/',
+        gitHubLink: '',
     },
 
     {
@@ -58,7 +58,7 @@ const projects = [
         skills: 'HTML, CSS, JS',
         img: project05,
         imgBig: project05BIg,
-        gitHubLink: 'https://github.com/',
+        gitHubLink: '',
     },
 
     {
@@ -66,7 +66,7 @@ const projects = [
         skills: 'HTML, CSS, JS',
         img: project06,
         imgBig: project06BIg,
-        gitHubLink: 'https://github.com/',
+        gitHubLink: '',
     }
 ]
 

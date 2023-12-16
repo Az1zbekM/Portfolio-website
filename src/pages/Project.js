@@ -23,7 +23,7 @@ const Projects = () => {
                                 GitHub repo
                         </a> */}
 
-					{project.gitHubLink && <BtnGitHub link='https://github.com' />}
+					{project.gitHubLink && <BtnGitHub link={project.gitHubLink}/>}
 				</div>
 			</div>
 		</main>
